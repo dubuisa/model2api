@@ -1,6 +1,3 @@
-
--r requirements.txt
-
 # tests/linter
 black
 coverage
