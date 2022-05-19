@@ -1,0 +1,6 @@
+fastapi
+python-multipart
+typer
+asgi-correlation-id
+loguru
+uvicorn
