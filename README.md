@@ -66,6 +66,6 @@ pip install model2api
 3. Run the HTTP API server from command-line:
 
     ```bash
-    model2api launch-api model:hello_world
+    model2api model:hello_world
     ```
     _In the output, there's a line that shows where your web service is being served, on your local machine._
