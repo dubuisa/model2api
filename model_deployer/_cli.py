@@ -18,6 +18,7 @@ def launch_api(
 
     This will launch a FastAPI server based on the OpenAPI standard and with an automatic interactive documentation.
     """
+
     # Add the current working directory to the sys path
     # This is required to resolve the opyrator path
     sys.path.append(os.getcwd())

@@ -122,7 +122,8 @@ class Predictor:
         self._output_type = None
 
         if not callable(self.function):
-            raise ValueError("The provided function parameters is not a callable.")
+            raise ValueError(
+                "The provided function parameters is not a callable.")
 
         if inspect.isclass(self.function):
             raise ValueError(
@@ -149,8 +150,10 @@ class Predictor:
                 pass
         elif hasattr(self.function, "__call__"):
             # The provided callable is a function
-            self._input_type = get_input_type(self.function.__call__)  # type: ignore
-            self._output_type = get_output_type(self.function.__call__)  # type: ignore
+            self._input_type = get_input_type(
+                self.function.__call__)  # type: ignore
+            self._output_type = get_output_type(
+                self.function.__call__)  # type: ignore
 
             try:
                 # Get name
@@ -160,7 +163,8 @@ class Predictor:
 
             try:
                 # Get description from
-                doc_string = inspect.getdoc(self.function.__call__)  # type: ignore
+                doc_string = inspect.getdoc(
+                    self.function.__call__)  # type: ignore
                 if doc_string:
                     self._description = doc_string
 
