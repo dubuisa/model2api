@@ -1,6 +1,6 @@
 """Collection of utilities for FastAPI apps."""
 
-from model_deployer.api.logging import InterceptHandler
+from model2api.api.logging import InterceptHandler
 
 
 import inspect

@@ -2,14 +2,14 @@ from typing import Any, Dict
 
 from asgi_correlation_id import CorrelationIdMiddleware
 from fastapi import FastAPI, status
-from model_deployer.api.fastapi_utils import configure_logging, patch_fastapi
-from model_deployer.core import Predictor
+from model2api.api.fastapi_utils import configure_logging, patch_fastapi
+from model2api.core import Predictor
 from starlette.responses import RedirectResponse
 
 
 def launch_api(opyrator_path: str, port: int = 8501, host: str = "0.0.0.0") -> None:
     import uvicorn
-    from model_deployer.api import create_api
+    from model2api.api import create_api
 
     app = create_api(Predictor(opyrator_path))
 

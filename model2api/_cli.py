@@ -23,6 +23,6 @@ def launch_api(
     # This is required to resolve the opyrator path
     sys.path.append(os.getcwd())
 
-    from model_deployer.api.fastapi_app import launch_api  # type: ignore
+    from model2api.api.fastapi_app import launch_api  # type: ignore
 
     launch_api(predictor, port, host)
