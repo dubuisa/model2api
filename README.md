@@ -14,9 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#features">Features</a> •
-  <a href="#examples">Examples</a>
+  <a href="#getting-started">Getting Started</a>
 </p>
 
 Instantly turn your Python functions into production-ready microservices. Deploy and access your services via REST API. model_deployer builds on open standards - OpenAPI,  JSON Schema, and Python type hints - and is powered by FastAPI, and Pydantic. It cuts out all the pain for productizing and sharing your Python code - or anything you can wrap into a single Python function.
