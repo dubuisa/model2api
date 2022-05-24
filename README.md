@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-    <a href="https://pypi.org/project/opyrator/" title="Python Version"><img src="https://img.shields.io/badge/Python-3.6%2B-blue&style=flat"></a>
+    <a href="https://pypi.org/project/opyrator/" title="Python Version"><img src="https://img.shields.io/badge/Python-3.7%2B-blue&style=flat"></a>
     <a href="https://github.com/dubuisa/model_deployer/blob/main/LICENSE" title="Project License"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
     <a href="https://github.com/dubuisa/model_deployer/actions?query=workflow/CI" title="Build status"><img src="https://img.shields.io/github/workflow/status/dubuisa/model_deployer/CI?style=flat"></a>
 </p>
