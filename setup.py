@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name=NAME,
-      version="0.0.1",
+      version="0.0.2",
       author="Antoine Dubuis",
       author_email="antoine.dubuis@gmail.com",
       description="Package to transform python functions into state of the art REST API",
