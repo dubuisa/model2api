@@ -5,10 +5,10 @@ install_requirements:
 	@pip install -r requirements.txt
 
 check_code:
-	@flake8 tests/* model_deployer/*.py
+	@flake8 tests/* model2api/*.py
 
 black:
-	@black tests/* model_deployer/*.py
+	@black tests/* model2api/*.py
 
 test:
 	@coverage run -m pytest tests/*.py
@@ -22,8 +22,8 @@ clean:
 	@rm -f .coverage
 	@rm -fr */__pycache__ */*.pyc __pycache__
 	@rm -fr build dist
-	@rm -fr model_deployer-*.dist-info
-	@rm -fr model_deployer.egg-info
+	@rm -fr model2api-*.dist-info
+	@rm -fr model2api.egg-info
 
 install:
 	@pip install . -U

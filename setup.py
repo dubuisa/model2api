@@ -2,8 +2,8 @@ from setuptools import find_packages
 from setuptools import setup
 import pathlib
 
-NAME = 'model_deployer'
-MAIN_PACKAGE = 'model_deployer'
+NAME = 'model2api'
+MAIN_PACKAGE = 'model2api'
 HERE = pathlib.Path(__file__).parent
 INSTALL_REQUIRES = (HERE / "requirements.txt").read_text().splitlines()
 TESTS_REQUIRE = (HERE / "test-requirements.txt").read_text().splitlines()[1:]
@@ -19,14 +19,14 @@ setup(name=NAME,
       long_description_content_type="text/markdown",
       long_description=long_description,
       packages=find_packages(),
-      url="https://github.com/dubuisa/model_deployer",
+      url="https://github.com/dubuisa/model2api",
       install_requires=INSTALL_REQUIRES,
       tests_require=TESTS_REQUIRE,
       python_requires='>=3.7',
-      keywords='model deployer fastapi model_deployer',
+      keywords='model deployer fastapi model2api api rest',
       test_suite='tests',
       project_urls={
-          'Homepage': 'https://github.com/dubuisa/model_deployer',
+          'Homepage': 'https://github.com/dubuisa/model2api',
       },
       classifiers=[
           'Programming Language :: Python :: 3.7',

@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <h1 align="center">
-    model_deployer
+    model2api
 </h1>
 
 <p align="center">
@@ -9,15 +9,15 @@
 
 <p align="center">
     <a href="https://pypi.org/project/opyrator/" title="Python Version"><img src="https://img.shields.io/badge/Python-3.7%2B-blue&style=flat"></a>
-    <a href="https://github.com/dubuisa/model_deployer/blob/main/LICENSE" title="Project License"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
-    <a href="https://github.com/dubuisa/model_deployer/actions?query=workflow/CI" title="Build status"><img src="https://img.shields.io/github/workflow/status/dubuisa/model_deployer/CI?style=flat"></a>
+    <a href="https://github.com/dubuisa/model2api/blob/main/LICENSE" title="Project License"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
+    <a href="https://github.com/dubuisa/model2api/actions?query=workflow/CI" title="Build status"><img src="https://img.shields.io/github/workflow/status/dubuisa/model2api/CI?style=flat"></a>
 </p>
 
 <p align="center">
   <a href="#getting-started">Getting Started</a>
 </p>
 
-Instantly turn your Python functions into production-ready microservices. Deploy and access your services via REST API. model_deployer builds on open standards - OpenAPI,  JSON Schema, and Python type hints - and is powered by FastAPI, and Pydantic. It cuts out all the pain for productizing and sharing your Python code - or anything you can wrap into a single Python function.
+Instantly turn your Python functions into production-ready microservices. Deploy and access your services via REST API. `model2api` builds on open standards - OpenAPI,  JSON Schema, and Python type hints - and is powered by FastAPI, and Pydantic. It cuts out all the pain for productizing and sharing your Python code - or anything you can wrap into a single Python function.
 
 This package is based on [opyrator](https://github.com/ml-tooling/opyrator) and was fork as the package was relying on older version of FastAPI and Starlette.
 
@@ -39,7 +39,7 @@ This package is based on [opyrator](https://github.com/ml-tooling/opyrator) and 
 > _Requirements: Python 3.7+._
 
 ```bash
-pip install model_deployer
+pip install model2api
 ```
 
 ### Usage
@@ -66,6 +66,6 @@ pip install model_deployer
 3. Run the HTTP API server from command-line:
 
     ```bash
-    model_deployer launch-api model:hello_world
+    model2api launch-api model:hello_world
     ```
     _In the output, there's a line that shows where your web service is being served, on your local machine._
