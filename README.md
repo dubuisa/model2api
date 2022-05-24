@@ -60,7 +60,7 @@ pip install model_deployer
         return Output(message=input.message)
     ```
 
-    _A compatible function is required to have an `input` parameter and return value based on [Pydantic models](https://pydantic-docs.helpmanual.io/) or an [UploadFile]([FileUpload](https://fastapi.tiangolo.com/tutorial/request-files/#uploadfile)). The input and output models are specified via [type hints](https://docs.python.org/3/library/typing.html)._
+    _A compatible function is required to have an `input` parameter and return value based on [Pydantic models](https://pydantic-docs.helpmanual.io/) or an [UploadFile]((https://fastapi.tiangolo.com/tutorial/request-files/#uploadfile). The input and output models are specified via [type hints](https://docs.python.org/3/library/typing.html)._
 
 2. Copy this code to a file, e.g. `model.py`
 3. Run the HTTP API server from command-line:
