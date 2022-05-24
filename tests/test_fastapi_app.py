@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
-from model_deployer.api import create_api
+from model2api.api import create_api
 from pydantic import BaseModel
-from model_deployer.core import Predictor
+from model2api.core import Predictor
 
 import pytest
 

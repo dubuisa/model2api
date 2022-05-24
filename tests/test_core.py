@@ -4,7 +4,7 @@ from fastapi import File
 from pydantic import BaseModel
 import pytest
 from fastapi.datastructures import UploadFile
-from model_deployer import core
+from model2api import core
 import sys
 
 
