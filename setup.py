@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name=NAME,
-      version="0.0.2",
+      version="0.0.3",
       author="Antoine Dubuis",
       author_email="antoine.dubuis@gmail.com",
       description="Package to transform python functions into state of the art REST API",
@@ -36,4 +36,6 @@ setup(name=NAME,
           "License :: OSI Approved :: MIT License",
 
       ],
-      zip_safe=False)
+      zip_safe=False,
+      entry_points={"console_scripts": [f"{NAME}={MAIN_PACKAGE}._cli:cli"]},
+      )
